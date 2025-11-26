@@ -1,11 +1,10 @@
 
 using MemberService.Application.Common.Interfaces.Persistence;
-using MemberService.Application.Members.Common;
+using MemberService.Application.Members.Model;
 using MemberService.Domain.Entities;
-using MemberService.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 
-namespace MemberService.Infrastructure.Repositories;
+namespace MemberService.Infrastructure.Persistence.Repositories;
 
 public class MemberRepository : IMemberRepository
 {

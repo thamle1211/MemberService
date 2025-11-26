@@ -5,7 +5,7 @@ using MemberService.Api.Middleware;
 using MemberService.Application.Common.Behaviors;
 using MemberService.Application.Common.Interfaces;
 using MemberService.Application.Members.Commands.CreateMember;
-using MemberService.Infrastructure;
+using MemberService.Infrastructure.Persistence;
 using MemberService.Infrastructure.Services;
 using Microsoft.IdentityModel.Tokens;
 
@@ -36,6 +36,7 @@ builder.Services.AddInfrastructure(builder.Configuration.GetConnectionString("De
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<IOperatorService, OperatorService>();
 builder.Services.AddScoped<IJwtService, JwtService>();
+builder.Services.AddHttpClient<IExternalAgeService, ExternalAgeService>();
 
 // ------------------------------
 // 5. Authentication & Authorization

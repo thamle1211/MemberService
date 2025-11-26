@@ -1,4 +1,4 @@
-using MemberService.Application.Members.Common;
+using MemberService.Application.Members.Model;
 using MemberService.Domain.Entities;
 
 namespace MemberService.Application.Common.Interfaces.Persistence;

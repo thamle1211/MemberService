@@ -4,7 +4,7 @@ using MemberService.Application.Common.Interfaces;
 using MemberService.Domain.Entities;
 using FluentAssertions;
 using MemberService.Application.Members.Commands.CreateMember;
-using MemberService.Application.Members.Common;
+using MemberService.Application.Members.Model;
 
 namespace MemberService.Tests.Members;
 

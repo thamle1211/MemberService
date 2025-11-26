@@ -1,7 +1,7 @@
 using FluentValidation.TestHelper;
 using MemberService.Application.Common.Interfaces.Persistence;
 using MemberService.Application.Members.Commands.CreateMember;
-using MemberService.Application.Members.Common;
+using MemberService.Application.Members.Model;
 using MemberService.Domain.Entities;
 using Moq;
 

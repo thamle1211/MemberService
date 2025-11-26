@@ -1,6 +1,6 @@
 using MediatR;
 using MemberService.Application.Common.Interfaces.Persistence;
-using MemberService.Application.Members.Common;
+using MemberService.Application.Members.Model;
 
 namespace MemberService.Application.Members.Queries.GetAllMembers;
 public class GetMembersHandler : IRequestHandler<GetMembersQuery, List<MemberDto>>

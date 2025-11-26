@@ -1,4 +1,4 @@
-namespace MemberService.Application.Members.Common;
+namespace MemberService.Application.Members.Model;
 
 public class MemberDto
 {

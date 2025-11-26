@@ -10,4 +10,6 @@ public class AppDbContext : DbContext
     }
 
     public DbSet<Member> Members => Set<Member>();
+    public DbSet<MemberPoint> MemberPoints => Set<MemberPoint>();
+    public DbSet<PointTransaction> PointTransactions => Set<PointTransaction>();
 }

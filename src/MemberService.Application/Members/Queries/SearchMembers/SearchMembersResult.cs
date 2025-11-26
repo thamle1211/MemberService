@@ -1,4 +1,4 @@
-using MemberService.Application.Members.Common;
+using MemberService.Application.Members.Model;
 
 namespace MemberService.Application.Members.Queries.SearchMembers;
 
